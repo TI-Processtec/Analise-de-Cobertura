@@ -1,0 +1,20 @@
+{
+    "name": "analise_cobertura",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.mjs",
+    "scripts": {
+        "start": "node index.mjs"
+    },
+    "dependencies": {
+        "@google-cloud/secret-manager": "^5.6.0",
+        "@google-cloud/storage": "^7.16.0",
+        "axios": "^1.7.7",
+        "dotenv": "^10.0.0",
+        "googleapis": "^144.0.0",
+        "node-fetch": "^3.0.0",
+        "node-schedule": "^2.0.0",
+        "p-limit": "^6.2.0",
+        "xlsx": "^0.18.5"
+    }
+}

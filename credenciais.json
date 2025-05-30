@@ -1,0 +1,7 @@
+{
+  "client_id":"5756ad784bce3e3b4f582b86d874409d677e1b57",
+  "client_secret":"7d919df8eeae5d284a779b0612174c7882a19e2fa0849adca8d32b19a0f8",
+  "refresh_token":"263b170e9cdba550731aaa058c6ba15f5c899b8b",
+  "access_token":"63925405900756d5181cc32359929f5ff231385b",
+  "bling_api_url":"https://www.bling.com.br/Api/v3/oauth/token"
+}

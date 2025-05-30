@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "analise-de-cobertura",
+  "private_key_id": "92fcbc2f530668e83e3464fa9c79c2a01ee991e2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9xu/DwdfvkkWU\nFlAdEATaosA9u8Tj1rAwlPxXwETa1ebZzaGs/YRYnq0vWmpSmiEd8zGVkwAf1TX3\nUXYr3KjRYTmG3/3UmKPwF/1sSs9FiOzKpUfJ4lEaHa5qR6+0GoTRL2ApGNrseHpk\nCSdyMtV3U1Fcla1icc3ZmKxQ11GJ6s1b+QElDA/Y1h8/Gx8ev91F5+kxf2l+BxP+\nqxf4eL/L5tQ0nepgz77jq7WiduICWVOPC1a+/SBO6poXc+Ium7HO6lhiWSGDkxGV\nASU/ohMIUncWWfGkVY85tRY5PG47OoXnWw1JH2lFKF0gNQpE4PsCUwjVilTw0ydG\nYfmuXweXAgMBAAECggEASViGuCDGBTiCHa7V/bWAOsPmCrX0bZ4+8DfUo1GTCwTa\nuNkJoGNG8D07b+7A4vXg0MN6KXXr+WGc/t4EDwW0VV//LMqLPsxTp+qNrnnnS9eU\ntOlWKoeGktJf44GbPb92D6cAwkFx8yzJGLqU/UT6Tajs7ByJK2ASkAO6rW/aerOT\ndo5BScjkK5CVXn6VlO4Zgfkev3ZCAOVWL8rQa8BDUlYYMkSLnzXA4zUyv27Qjz0p\nF2+Yr2WLCFo9TqgPlyLtGAdq29JZjk/5Qgz+t3GOTQC/zFi7MQcdIWfx1P5STCsR\nMt1mAVSG155DX3qD7bSgfwpbki0et5oLejP8j04mcQKBgQDkvfAC/JPk5ciHGFKu\nHEflRP8TqE1ulvlXI+u5I3xCvQujthIU2C9d18xDUrm5A/9/05o1xqMQ5VZEgWs6\nFKRZf6grYM8PtYO9hb0+b/yxRiXYe6RHAHsM3L0RZLB4mSTbNMBzlW0QMXEZ5SSQ\nl3Y9/v7gqr+5sFw/7teDt/NPXwKBgQDUZFO5uSYwvwjviSeg2dd8SxF6JxjCKQyD\nkRZ4aDU6eisE6MiO26Q6lvRMNju4T2bU2RlWlnkvdnaNbaHoDnWPChdX8Cc4J33F\nlMQUsUL7l2QRikKc/OnMrLO+ZS+zL1DpBzavGec/B6MPD6ApjASQkNkrOWOY2WK6\ntPxElkQKyQKBgQC8+xONVCHYDeQDgRvmDyVzDPL0yarXgFIWJW498kxaUxeHtQfx\nQr63eG+g+3rHmb8AW9FfNnJIpkEErivpu14hNy+4Tu4jW2KxNQopyJnr2DmyRkxu\nAL6o3MIz2Y1WxafGlymdFMobg82eiEsSTqB5DfCDq25lOoispWZWw6Z4XwKBgAnV\nIzMj6Sq0jVtZhCYkL5+ncgWvrau/br7ghqPIXz53zWoKxM4oSPAVcPXeROGBe4c7\nDbs+eBnEaDSf8LDninW2x+HgUlB9M4tkGbfDhRBUr+NH/VF7O++nxyJ3WL/43swK\n83MjxdrbJada19VUkBmJOySPIZc/6RwvqMYcFsZRAoGAENT2EMhJtQu6/lVXth+K\nZJs+Rf1gesgbsZ+hwtc4CYPOe0my219ZD/rMvqAoAVMGA6CAgU9pa1xBLqjdkYmW\nRqNLZT3kDDmxJ5d71DAJqVEVoPDLThNRD0Tloa11WinwMFSgpASiPm7+QWTfuWsc\nVbVIfeZb0mx8Yy2vMkc31rg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "analise-cobertura@analise-de-cobertura.iam.gserviceaccount.com",
+  "client_id": "116404888514244933955",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/analise-cobertura%40analise-de-cobertura.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

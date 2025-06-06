@@ -287,7 +287,12 @@ async function main() {
     const ultComp = Object.values(compras)
       .filter(c => Array.isArray(c.itens) && c.itens.some(it => it.produto.codigo === sku))
       .sort((a, b) => new Date(b.data) - new Date(a.data))[0];
-    row[1] = ultComp?.data.split('T')[0] || '';
+    if (ultComp) {
+      row[1] = ultComp.data.split('T')[0];
+      row[3] = ultComp.parcelas?.slice(-1)[0]?.dataVencimento || row[3];
+      const qtd = ultComp.itens.find(it => it.produto.codigo === sku)?.quantidade;
+      if (qtd !== undefined) row[4] = qtd;
+    }
 
     // Coluna C (índice 2): última venda após última entrada
     const since = row[1] || lastRun;
@@ -298,14 +303,9 @@ async function main() {
       );
     const ultVenda = vendasFiltradas
       .sort((a, b) => new Date(b.dataSaida || b.data) - new Date(a.dataSaida || a.data))[0];
-    row[2] = ultVenda?.dataSaida?.split('T')[0] || '';
-
-    // Coluna D (índice 3): data da última parcela
-    row[3] = ultComp?.parcelas?.slice(-1)[0]?.dataVencimento || '';
-
-    // Coluna E (índice 4): quantidade comprada
-    const qtdComprada = ultComp?.itens.find(it => it.produto.codigo === sku)?.quantidade || 0;
-    row[4] = qtdComprada;
+    if (ultVenda) {
+      row[2] = ultVenda.dataSaida?.split('T')[0];
+    }
 
     // Coluna F (índice 5): saldo em estoque
     row[5] = await consulterSaldo(sku);
